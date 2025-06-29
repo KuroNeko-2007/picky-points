@@ -9,10 +9,15 @@ from game import Game
 from random_player import player as player1
 from mean_player import player as player2
 
-
+############################################################################
+#### Change the setttings for the match you wish the bots to play       ####
+#### The ones present in the repo will be used in the actual tournament ####
+############################################################################
 point_count = 2048
 max_coord = 10
 rounds_in_match = 50
+
+
 
 def play(p1, p2):
     game = Game(point_count, max_coord)

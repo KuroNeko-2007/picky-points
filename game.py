@@ -13,7 +13,7 @@ class Game:
 
 
     def _in_sphere(self, point: npt.NDArray[np.float64]):
-        return np.sum(point**2) < self.radius_sq
+        return np.sum(point**2) <= self.radius_sq
 
 
     def choose(self, center: npt.NDArray[np.float64]):

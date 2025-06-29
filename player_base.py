@@ -14,7 +14,7 @@ class Player:
         ######################################################
 
 
-        return point # numpy array of size (1, 3)
+        return point # numpy array of length 3
     
 
 ######################################

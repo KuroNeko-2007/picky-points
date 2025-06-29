@@ -15,7 +15,7 @@ class Player:
         self.name = name
 
     def think(self, points: npt.NDArray[np.float64]):
-        point = np.random.random(3) * 16
+        point = np.random.random(3) * 10
 
         return point # numpy array of length 3
     
